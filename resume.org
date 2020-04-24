@@ -1,0 +1,129 @@
+#+TITLE: Eric Tobin Resume
+#+AUTHOR: Eric Tobin
+#+EMAIL: ewtobin2@illinois.edu
+#+FILETAGS: RESUME
+* DONE Finish resume
+  CLOSED: [2017-09-07 Thu 17:51] DEADLINE: <2017-09-05 Tue>
+  :PROPERTIES:
+  :ID:       c267f5c3-9e34-408b-8002-287839c7d7aa
+  :END:
+** CANCELLED Find old resume                                      :CANCELLED:
+   CLOSED: [2017-09-03 Sun 14:02]
+   :LOGBOOK:
+   - State "CANCELLED"  from "NEXT"       [2017-09-03 Sun 14:02] \\
+     failed to find resume
+   :END:
+** DONE list contents in plaintext
+   CLOSED: [2017-09-03 Sun 14:17]
+   [2017-09-03 Sun 14:02]
+*** school and gpa
+   [2017-09-03 Sun 14:03]
+*** hybrid rocket engine
+    [2017-09-03 Sun 14:03]
+*** computer languages
+    [2017-09-03 Sun 14:04]
+** DONE add dates to everything
+   CLOSED: [2017-09-07 Thu 17:51]
+   [2017-09-03 Sun 14:09]
+** DONE Find GPA
+   CLOSED: [2017-09-07 Thu 17:51]
+   [2017-09-03 Sun 14:17]
+** DONE format in latex
+   CLOSED: [2017-09-07 Thu 17:51]
+   [2017-09-03 Sun 14:02]
+* Contents
+** University of Illinois at Urbana-Champaign
+  [2017-09-03 Sun 14:07]
+*** B.S. Aerospace Engineering Senior
+   [2017-09-03 Sun 14:07]
+*** GPA:
+    [2017-09-03 Sun 14:08]
+** Work Experience
+    [2017-09-03 Sun 14:09]
+*** Illinois Space Society Hybrid Rocket Engine
+   [2017-09-03 Sun 14:09]
+**** Project Description, status
+    [2017-09-03 Sun 14:10]
+**** Engine Team Leader
+    [2017-09-03 Sun 14:10]
+**** FLUENT simulation
+**** Electronics control
+*** Illinois Space Society NASA Student Launch
+
+** Programming Skills
+     [2017-09-03 Sun 14:11]
+*** Languages:
+    - Python
+    - MATLAB
+    - Rust
+    - C/C++
+   [2017-09-03 Sun 14:12]
+** General Skills
+*** MS office and open source equivalents
+*** Unix, Arch Linux
+* Latex
+\documentclass[11pt]{moderncv}
+\pdfmapfile{+fontawesome.map}
+\pdfmapfile{+qpl-ec.map}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\nopagenumbers{}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[scale=0.8]{geometry}
+
+\name{Eric}{Tobin}
+\address{511 Birdie Ct.}{26541 Maidsville, WV}
+\phone{(850)~624-4299}
+\email{erictobin18@gmail.com}
+
+\begin{document}
+\makecvtitle
+
+\section{Objective}
+Aerospace Engineer looking to continue designing and testing propulsion systems.
+\section{Education}
+\cventry{2012--2018}{B.S. Aerospace Engineering}{University of Illinois at Urbana-Champaign}{Champaign-Urbana, IL}{ \textit{2.30} }{}
+\begin{itemize}
+\item Numerical Methods Elective
+\item Capstone Project: Aircraft System Design (Propulsion)
+\end{itemize}
+\section{Experience}
+\cventry{2014--2018}{Hybrid Rocket Engine Subteam Leader}{Illinois Space Society (Student Organization)}{Champaign, IL}{}{Lead a team of 4-12 student engineers in creating a rocket engine propulsion system.}
+\begin{itemize}
+\item Helped get project approved by organization
+\item Performed system sizing based on performance requirements and organizational needs
+\item Designed and prototyped engine components:
+      \begin{itemize}
+      \item Cavitating Venturi Injectors
+      \item Parabolic de Leval Nozzle
+      \item Vehicle Integration Interface
+      \end{itemize}
+\item Completed Method of Characteristics and Computational Fluid Dynamics models of nozzle flow
+\item Designed and operated cold flow and static hot firing tests for design validation
+      \begin{itemize}
+      \item Designed and constructed remote test control system
+      \item Wrote test and safety procedures
+      \end{itemize}
+\item Designed paraffin fuel grain high-pressure manufacturing process
+\end{itemize}
+\cventry{2013--2014}{NASA Student Launch Payload Subteam Leader}{Illinois Space Society (Student Organization)}{Champaign, IL}{}{Created a detail design for a remote sensing electronics payload.}
+
+\section{Programming Languages}
+\cvitem{Proficient}{Python, MATLAB}
+\cvitem{Intermediate}{Rust}
+\cvitem{Novice}{C/C++, \LaTeX}
+
+
+\section{Hobbies}
+\begin{itemize}
+\item Tesla Coiling, Amateur Rocketry
+\end{itemize}
+\cvitem{Tesla Coiling, Amateur Rocketry}
+
+\end{document}
+* TODO get resume reviewed
+  [2017-09-03 Sun 14:03]
+
